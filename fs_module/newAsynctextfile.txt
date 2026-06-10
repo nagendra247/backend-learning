@@ -1,0 +1,2 @@
+hello this Asynce file created by nodejs fs module
+this is new data added to file
