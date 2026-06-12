@@ -1,0 +1,15 @@
+This program uses EventEmitter to track user activities like login, purchase, profile update, and logout.
+
+on() is used to listen for an event.
+emit() is used to trigger an event.
+
+Whenever an event occurs, a message is displayed and the event count is increased.
+For example:
+When a user logs in, the login event is triggered and the login count increases.
+
+When a user purchases an item, the purchase event is triggered and the purchase count increases.
+
+At the end, the program shows how many times each event occurred.
+
+One-Line Answer
+This program demonstrates event-driven programming in Node.js by handling user actions (login, purchase, update, logout) using EventEmitter and counting how many times each action occurs.
