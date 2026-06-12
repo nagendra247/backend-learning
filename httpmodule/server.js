@@ -11,8 +11,22 @@ const server = http.createServer((req,res)=>{
         res.write("Welcome to the About Page");
         res.end();
     }
+    if(req.url === '/contact'){
+        res.writeHead(200,{'content-type':'text/plain'});
+        res.write("Welcome to the Contact Page");
+        res.end();
+    }
+    if(req.url === '/api/data'){
+        res.writeHead(200,{'content-type':'application/json'});
+        const data = {
+            name: "John Doe",
+            age: 30,
+            email: "john.doe@example.com"
+        };
+        res.write(JSON.stringify(data));
+        res.end();
+    }
 })
-
 
 const PORT = 3000;
 server.listen(PORT,()=>{

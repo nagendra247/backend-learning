@@ -1,0 +1,24 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "learninf node and express",
+  "homepage": "https://github.com/nagendra247/backend-learning#readme",
+  "bugs": {
+    "url": "https://github.com/nagendra247/backend-learning/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagendra247/backend-learning.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "add.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
