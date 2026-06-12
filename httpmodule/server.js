@@ -26,6 +26,16 @@ const server = http.createServer((req,res)=>{
         res.write(JSON.stringify(data));
         res.end();
     }
+    if(req.url === '/api/users'){
+        res.writeHead(200,{'content-type':'application/json'});
+        const users = [
+            {id: 1, name: "Alice"},
+            {id: 2, name: "Bob"},
+            {id: 3, name: "Charlie"}
+        ];
+        res.write(JSON.stringify(users));
+        res.end();
+    }
 })
 
 const PORT = 3000;
