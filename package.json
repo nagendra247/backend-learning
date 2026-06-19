@@ -1,8 +1,9 @@
 {
   "name": "learning",
   "version": "1.0.0",
-  "description": "learninf node and express",
+  "description": "learning node and express",
   "homepage": "https://github.com/nagendra247/backend-learning#readme",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/nagendra247/backend-learning/issues"
   },
@@ -12,7 +13,6 @@
   },
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
   "main": "add.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
